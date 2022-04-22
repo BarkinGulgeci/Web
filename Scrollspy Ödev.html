@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Scrollspy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<style>
+    body {
+        position: relative;
+    }
+</style>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">
+                        Scrollspy Nedir
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        Nasıl Çalışır
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">
+                        Örnek
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        Örnek
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="home" class="bg-success" style="padding-bottom: 400px; padding-top:400px;">
+        <div class="container">
+            <h1>
+                Scrollspy Nedir
+            </h1>
+            <p>
+                Görünüm alanında hangi bağlantının etkin olduğunu belirtmek için, Önyükleme navigasyonunu otomatik olarak güncelleyin veya grup bileşenlerini kaydırma konumuna göre listelememizi sağlar.
+            </p>
+
+        </div>
+    </div>
+
+
+    <div id="about" class="bg-danger" style="padding-bottom: 400px; padding-top:400px;">
+        <div class="container">
+            <h1>
+                Nasıl Çalışır
+            </h1>
+            <p>
+                Nasıl çalışır
+                Scrollspy'ın düzgün çalışması için birkaç gereksinimi vardır:
+            </p>
+
+            <p>
+                Bir Bootstrap gezinme bileşeninde veya liste grubunda kullanılmalıdır .
+                Scrollspy, position: relative;gözetlediğiniz öğeye ihtiyaç duyar, genellikle (body).
+                Çapalar ( a) gereklidir ve bununla birlikte bir öğeye işaret etmelidir id.
+                Başarılı bir şekilde uygulandığında, gezinme veya liste grubunuz buna göre güncellenecek ve .activesınıfı ilişkili hedeflerine göre bir öğeden diğerine taşıyacaktır.
+            </p>
+
+        </div>
+    </div>
+
+
+    <div id="services" class="bg-warning" style="padding-bottom: 400px; padding-top:400px;">
+        <div class="container">
+            <h1>
+                Örnek
+            </h1>
+            <p>
+                İlk başlık
+Bu, scrollspy sayfası için bazı yer tutucu içeriktir. Sayfayı aşağı kaydırırken uygun gezinme bağlantısının vurgulandığını unutmayın. Bileşen örneği boyunca tekrarlanır. Kaydırma ve vurgulamayı vurgulamak için buraya biraz daha örnek kopya eklemeye devam ediyoruz.
+            </p>
+
+            <p>
+                İlk başlık
+Bu, scrollspy sayfası için bazı yer tutucu içeriktir. Sayfayı aşağı kaydırırken uygun gezinme bağlantısının vurgulandığını unutmayın. Bileşen örneği boyunca tekrarlanır. Kaydırma ve vurgulamayı vurgulamak için buraya biraz daha örnek kopya eklemeye devam ediyoruz.
+            </p>
+
+        </div>
+    </div>
+
+    <div id="contact" class="bg-info" style="padding-bottom: 400px; padding-top:400px;">
+        <div class="container">
+            <h1>
+               Örnek
+            </h1>
+            <p>
+                İlk başlık
+Bu, scrollspy sayfası için bazı yer tutucu içeriktir. Sayfayı aşağı kaydırırken uygun gezinme bağlantısının vurgulandığını unutmayın. Bileşen örneği boyunca tekrarlanır. Kaydırma ve vurgulamayı vurgulamak için buraya biraz daha örnek kopya eklemeye devam ediyoruz.
+            </p>
+
+            <p>
+                İlk başlık
+Bu, scrollspy sayfası için bazı yer tutucu içeriktir. Sayfayı aşağı kaydırırken uygun gezinme bağlantısının vurgulandığını unutmayın. Bileşen örneği boyunca tekrarlanır. Kaydırma ve vurgulamayı vurgulamak için buraya biraz daha örnek kopya eklemeye devam ediyoruz.
+            </p>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
